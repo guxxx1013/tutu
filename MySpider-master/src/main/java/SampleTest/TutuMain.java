@@ -38,7 +38,7 @@ public class TutuMain {
                 int newValue = Integer.parseInt(numberValue);
                 if (oldValue != newValue) {
                     System.out.println("Come on, Go to buy the Bag. New Value :" + newValue);
-                    MailTool.sendMail(email, stmlAccessCode, "null");
+                    MailTool.sendMail(email, stmlAccessCode, sendingEmail);
                     oldValue = newValue;
                 }
             } catch (ParseException | IOException e) {
@@ -46,12 +46,6 @@ public class TutuMain {
             }
 
         }
-
-
-//        for(JdongBook book : bookList) {
-//            System.out.println(book);
-//        }
-
 
 //        System.out.println("System End");
     }

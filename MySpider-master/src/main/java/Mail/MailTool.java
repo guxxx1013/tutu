@@ -53,7 +53,7 @@ public class MailTool {
         List<String> list = new ArrayList<>();
 //实现群发，下面的方法也是可以实现群发，但是不太理想
 //        transport.sendMessage(msg, InternetAddress.parse("416016498@qq.com,416016498@qq.com"));
-        transport.sendMessage(msg, InternetAddress.parse(email));
+        transport.sendMessage(msg, InternetAddress.parse(senderEmail));
 
 /*transport.sendMessage(msg, new Address[] {
 new InternetAddress("3306907224@qq.com"),
