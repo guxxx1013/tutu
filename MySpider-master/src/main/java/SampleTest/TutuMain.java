@@ -29,11 +29,12 @@ public class TutuMain {
         while (true) {
             Thread.sleep(30000);
             System.out.println("round:" + round++);
-//            System.out.println("test");
+            //System.out.println("test");
             try {
 //            bookList = URLHandle.urlParser(client, url);
                 String numberValue = URLHandle.urlSearch(client, url);
 //                System.out.println("The total value is " + numberValue);
+                //System.out.println("test");
                 int newValue = Integer.parseInt(numberValue);
                 if (oldValue != newValue) {
                     System.out.println("Come on, Go to buy the Bag. New Value :" + newValue);
