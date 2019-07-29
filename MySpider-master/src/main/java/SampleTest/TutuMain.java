@@ -24,7 +24,7 @@ public class TutuMain {
         String url = "https://www.hermes.cn/cn/en/women/bags-and-small-leather-goods/bags-and-clutches/";
         //发送者邮箱
         String email = "416016498@qq.com";
-        String stmlAccessCode = "hzyxuarlassmbgdj";
+        String stmlAccessCode = "xxx";
         String sendingEmail = "416016498@qq.com";
         while (true) {
             Thread.sleep(30000);
